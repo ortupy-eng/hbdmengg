@@ -1,0 +1,94 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.6.6/dist/index.umd.js"></script><link rel="stylesheet" href="https://haikamu.feeldream.repl.co/style.css">
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+
+<head>
+<title>Script HTML Untukmu</title>
+<!-- 
+  Made with love by feeldream!
+
+     Blog: feeldream.id
+     Instagram: @rayyarrr
+     TikTok: @feelthisray
+     Email: rayyar73@gmail.com
+
+  Thanks to all <3
+-->
+</head>
+<body>
+
+   <!-- Ganti Audio di sini -->
+   <audio src="https://feeldreams.github.io/anotherme.mp3" id="linkmp3" class="sembunyi"></audio>
+
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://feeldreams.github.io/pics/awan/1.jpg" id="wallpaper"/>
+   </div>
+
+   <div id='Content'>
+
+     <div id="suratin" onClick="memulai();">
+       <!-- Tombol Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">Klik Suratnya!</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/bwa2.gif" id="fotoakhir"/>
+         <img src="https://feeldreams.github.io/bunga.gif" id="fotoakhir2"/>
+         <img src="https://feeldreams.github.io/gumush.gif" id="fotoakhir3"/>
+         <img src="https://feeldreams.github.io/cilukba.gif" id="fotoakhir4"/>
+         <img src="https://feeldreams.github.io/emawh.gif" id="fotoakhir5"/>
+         <img src="https://jawab2.feeldream.repl.co/1.gif" id="fotoakhir6"/>
+     </div>
+
+     <div id="kontenstiker">
+     <div class="stiker" id="stiker1">
+         <img id="stikersatu" src="" />
+     </div>
+     </div>
+
+     <div><blockquote id='bq'>
+
+       <!-- Konten Pembukaan -->
+       <p id="kalimat">Hai, </p>
+       <p id="kalimatb">Aku cuma mau bilang nih,</p>
+       <p id="kalimatb2">Good Morning, <b id="namakamu"></b>! Jangan lupa mandi, sarapan, dan semangat terus jalani harinya! 😍</p>
+       <p id="kalimatc">Gaboleh nyerah kalau<br>ada masalah yaa.. 🥰</p>
+
+       <!-- Konten Pilihan Kado -->
+       <p id="kalimatd">Oh iya, coba pilih <b>kado</b><br>di bawah ini yaa! 😆❤️</p>
+       <div id="kolombaru">
+         <li><img src="https://feeldreams.github.io/kadoin.png" onClick="rnkado = 1;pilihankado();"/></li>
+         <li><img src="https://feeldreams.github.io/kadoin.png" onClick="rnkado = 2;pilihankado();"/></li>
+         <li><img src="https://feeldreams.github.io/kadoin.png" onClick="rnkado = 3;pilihankado();"/></li>
+       </div>
+
+       <!-- Konten Isi Kado -->
+       <p id="kado1">Selamat pagi! Maafin aku ya kalau sebelumnya udah bikin kamu marah, Aku Sayang Kamu 😍</p>
+       <p id="kado2">Selamat pagi, <b id="namakamu2"></b>! ✨<br><br>Matahari boleh bersinar terik,<br>tetapi hanya <b id="namakamu3"></b> yang paling<br>menarik, jiakhhh~ 😆<br><br><span class="ftalt">I love youuu ><</span></p>
+       <p id="kado3">Selamat pagi! Jangan lupa bahagia terus ya.. Aku di sini sangat menyayangimu 😍</p>
+
+     </blockquote></div>
+
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By" onClick="multifungsi()">
+         <b id="tmbl">Lanjut</b>
+       </a>
+     </div>
+
+     <!-- Pesan yang dikirim ke WhatsApp -->
+     <span id="pesanWA" class="sembunyi">Awww, Good Morning too! ✨</span>
+
+   </div>
+
+<script>const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const style = document.createElement('style'); var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy;audio = new Audio('' + linkmp3.src);</script>
+<script src="https://haikamu.feeldream.repl.co/script.js"></script>
+</body>
+</html>
